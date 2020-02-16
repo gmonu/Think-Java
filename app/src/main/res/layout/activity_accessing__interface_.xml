@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:background="@color/colorDarkGreen"
+    tools:context="com.example.ashu.programmingpie.Accessing_Interface_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorWhite">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=" 8.4 Accessing Interface"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/colorWhite">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="interfaces can be used to declare a set of constants that can be used in different classes. This is similar to creating header files in c++ to contain large number of constants."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="Since such interfaces do not contain methods,there is no need to worry about implementing any methods."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="The constant value will be available to any class that implements the interface.The values can be used in any method, as part of any variable declaration, or anywhere where we can use a final value."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="Example:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="interface A {"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="int m=10;"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="int n=50;"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="}"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="class B implements A {"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="int x=m;"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="void methodB(int size)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="{"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="..........."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="..........."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="if(size&lt;n)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="}"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/colorBlack"
+                android:text="}"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

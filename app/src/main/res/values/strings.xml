@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">THINK JAVA !</string>
+
+
+    <string name="introduction_button">Introduction</string>
+    <string name="operators_exression_button"><![CDATA[Operators & Exression]]></string>
+    <string name="setup_basic_program_button"><![CDATA[Setup & Basic program]]></string>
+    <string name="variables_data_type_button"><![CDATA[Variables & Data Type]]></string>
+    <string name="arrays_string_vector_button"><![CDATA[Arrays, String & Vector]]></string>
+    <string name="classes_objects_methods_button"><![CDATA[Classes, Objects & Methods]]></string>
+    <string name="errors_exception_button"><![CDATA[Errors & Exception]]></string>
+    <string name="flow_control_button">Flow Control</string>
+    <string name="interfaces_button">Interfaces</string>
+    <string name="multithreaded_programming_button">Multithreaded programming</string>
+    <string name="packages_button">Packages</string>
+    <string name="applet_button">Applet</string>
+    <string name="file_management_button">File Management</string>
+    <string name="introduction_textView">Introduction</string>
+    <string name="_1_introduction_btn">1.Introduction</string>
+    <string name="_2_features_btn">2. Features</string>
+    <string name="_3_pros_and_cons_btn">3. Pros and Cons</string>
+    <string name="java_icon_image">Java_Icon_Image</string>
+    <string name="java_tutorials_textView">Java Tutorials</string>
+    <string name="aboutus_image">AboutUs Image</string>
+    <string name="think_java">THINK JAVA !</string>
+    <string name="application_for_java">#Application for Java</string>
+    <string name="no_need_to_carry_books_for_java_programming_this_app_enables_you_to_carry_basic_tutorial_in_your_android">No need to carry books for JAVA PROGRAMMING. This app enables you to carry basic tutorial in your android.</string>
+    <string name="it_contains_about_100_program_many_exam_questions_also">it contains about 100 program, many Exam Questions also.</string>
+    <string name="this_app_has_a_very_simple_user_interface_and_the_contents_can_be_easily_understood_by_the_users">This app has a very simple user interface and the contents can be easily understood by the users.</string>
+    <string name="this_will_definitely_help_i_for_preparing_for_interview_tests_and_in_many_more_ways">This will definitely help i for preparing for interview, tests and in many more ways.</string>
+    <string name="wherever_and_whenever_you_require_any_information_about_java_you_are_just_a_click_away">Wherever and Whenever you require any information about Java you are just a click away.</string>
+    <string name="all_the_best_guys">All The Best Guys.....</string>
+    <string name="resourse_help">Resourse Help:</string>
+    <string name="sameer_ansari">Sameer Ansari.</string>
+    <string name="monu_gupta">Monu Gupta.</string>
+    <string name="lucky_singh">Lucky Singh.</string>
+    <string name="dheeraj_yadav">Dheeraj Yadav.</string>
+    <string name="manish_sharma">Manish Sharma.</string>
+    <string name="share_this_app_with_you_friends">Share This App With You Friends.</string>
+    <string name="about_us">About Us</string>
+    <string name="exit_button_setting">Exit</string>
+</resources>

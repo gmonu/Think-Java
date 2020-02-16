@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@color/colorDarkGreen"
+    tools:context="com.example.ashu.programmingpie.Swapping_Two_Number_Program_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorWhite">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="#24 Swapping Two Number"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/colorWhite">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"
+                android:text="public class SwapNumbers {"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorDarkGreen"
+                android:text="public static void main(String[] args) {"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="float first = 1.20f, second = 2.45f;"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="System.out.println(&quot;--Before swap--&quot;);"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="System.out.println(&quot;First number = &quot; + first);"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="System.out.println(&quot;Second number = &quot; + second);"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="// Value of first is assigned to temporary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="float temporary = first;"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="// Value of second is assigned to first"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="first = second;"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="// Value of temporary (which contains the initial value of first) is assigned to second"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="second = temporary;"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="System.out.println(&quot;--After swap--&quot;);"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="System.out.println(&quot;First number = &quot; + first);"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text=" System.out.println(&quot;Second number = &quot; + second);"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorDarkGreen"
+                android:text="}"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"
+                android:text="}"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:text="Output:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"
+                android:text="--Before swap--"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="First number = 1.2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="Second number = 2.45"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"
+                android:text="--After swap--"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:text="First number = 2.45"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="italic"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/colorBlack"
+                android:text="Second number = 1.2"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

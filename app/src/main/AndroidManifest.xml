@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ashu.programmingpie">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_image"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_image"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.ashu.programmingpie.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Tutorials_Activity">
+            <intent-filter>
+                <action android:name="com.example.ashu.programmingpie.Tutorials_Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Introdution_activity">
+            <intent-filter>
+                <action android:name="com.example.ashu.programmingpie.Introdution_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Introduction_1_Activity" />
+        <activity android:name=".FeaturesActivity" />
+        <activity android:name=".ProsAndConsActivity" />
+        <activity android:name=".SetupActivity" />
+        <activity android:name=".EnvironmentActivity" />
+        <activity android:name=".First_Program_Activity" />
+        <activity android:name=".VariablesActivity" />
+        <activity android:name=".VariablesAndDataTypeActivity" />
+        <activity android:name=".VariablesScopeActivity" />
+        <activity android:name=".DataTypeActivity" />
+        <activity android:name=".TypeCastingActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Operators_And_ExpressionActivity" />
+        <activity android:name=".Operators_Activity" />
+        <activity android:name=".ExpressionActivity" />
+        <activity android:name=".KeywordsActivity" />
+        <activity android:name=".Operator_Precedence_Activity" />
+        <activity android:name=".MultithreadingActivity" />
+        <activity android:name=".CreatingThreadActivity" />
+        <activity android:name=".StoppingAndBlocking_Activity" />
+        <activity android:name=".LifeCycle_Activity" />
+        <activity android:name=".ExceptionAndPriority_Activity" />
+        <activity android:name=".SynchronizationActivity" />
+        <activity android:name=".Runnable_Interface_Activity" />
+        <activity android:name=".FlowControl_Activity" />
+        <activity android:name=".IfStatement_Activity" />
+        <activity android:name=".Switch_Activity" />
+        <activity android:name=".Whileloop_Activity" />
+        <activity android:name=".DoWhilelopp_Activity" />
+        <activity android:name=".Forloop_Activity" />
+        <activity android:name=".ClassAndObjectMethod_Activity" />
+        <activity android:name=".ClassesBasics_Activity" />
+        <activity android:name=".Class_Objects_Activity" />
+        <activity android:name=".Constructor_Activity" />
+        <activity android:name=".Method_Overloading_Activity" />
+        <activity android:name=".Method_Overriding_Acivity" />
+        <activity android:name=".StaticKeywords_Activity" />
+        <activity android:name=".Inheritance_Activity" />
+        <activity android:name=".Type_Of_Inheritance_Activity" />
+        <activity android:name=".Final_Keyword_Activity" />
+        <activity android:name=".Abstraction_Activity" />
+        <activity android:name=".ArrayStringAndVector_Activity" />
+        <activity android:name=".Arrays_Activity" />
+        <activity android:name=".Strings_Activity" />
+        <activity android:name=".Vectors_Activity" />
+        <activity android:name=".WrapperClass_Activity" />
+        <activity android:name=".ErrorAndExceptions_Activity" />
+        <activity android:name=".Exception_Activity" />
+        <activity android:name=".TryAndCatch_Activity" />
+        <activity android:name=".CustomException_Activity" />
+        <activity android:name=".Apple_Introduction_Activity" />
+        <activity android:name=".Applet_LifeCycle_Activity" />
+        <activity android:name=".Creating_An_Executable_Applet_Activity" />
+        <activity android:name=".Designing_A_WebPage_Activity" />
+        <activity android:name=".Running_Applet_Activity" />
+        <activity android:name=".FileManagement_Activity" />
+        <activity android:name=".StreamClass_Activity" />
+        <activity android:name=".ByteStream_Activiyt" />
+        <activity android:name=".CharacterStream_Activity" />
+        <activity android:name=".StandardStream_Activity" />
+        <activity android:name=".File_Activity" />
+        <activity android:name=".Directory_Activity" />
+        <activity android:name=".Interface_Activity" />
+        <activity android:name=".Define_Interface_Activity" />
+        <activity android:name=".Extending_Interface_Activity" />
+        <activity android:name=".Implementing_Interface_Activity" />
+        <activity android:name=".Accessing_Interface_Activity" />
+        <activity android:name=".Applet_Activity" />
+        <activity android:name=".Package_Activity" />
+        <activity android:name=".Package_Introduction_Activity" />
+        <activity android:name=".Java_API_Activity" />
+        <activity android:name=".System_Package_Activity" />
+        <activity android:name=".Programs_Activity" />
+        <activity android:name=".Hello_World_Activity" />
+        <activity android:name=".Addition_Activity" />
+        <activity android:name=".IfElse_program_Activity" />
+        <activity android:name=".While_Program_Activity" />
+        <activity android:name=".For_Loop_Activity" />
+        <activity android:name=".Do_While_Program_Activity" />
+        <activity android:name=".Switch_Case_Activity" />
+        <activity android:name=".Continue_Program_Activity" />
+        <activity android:name=".Even_Odd_Program_Activity" />
+        <activity android:name=".LargestNumber_Activity" />
+        <activity android:name=".Prime_Program_Activity" />
+        <activity android:name=".Palindrome_Program_Activity" />
+        <activity android:name=".Factorial_Program_Activity" />
+        <activity android:name=".Factorial_Recursion_Program_Activity" />
+        <activity android:name=".Area_Of_Circle_Program_Activity" />
+        <activity android:name=".Area_Of_Rectangle_Program_Activity" />
+        <activity android:name=".Bitwise_Addition_Program_Activity" />
+        <activity android:name=".Simple_Interest_Program_Activity" />
+        <activity android:name=".Calculate_Percentage_Program_Activity" />
+        <activity android:name=".GCD_And_LCM_Program_Activity" />
+        <activity android:name=".Leap_Year_Program_Activity" />
+        <activity android:name=".Print_Table_Program_Activity" />
+        <activity android:name=".Find_Armstrong_Number_Program_Activity" />
+        <activity android:name=".Swapping_Two_Number_Program_Activity" />
+        <activity android:name=".Swapping_With_3_Program_Activity" />
+        <activity android:name=".Floyd_Triangle_Program_Activity" />
+        <activity android:name=".Pascal_Triangle_Progam_Activity" />
+        <activity android:name=".Binary_To_Decimal_Progarm_Activity" />
+        <activity android:name=".Decimal_To_Binary_Program_Activity" />
+        <activity android:name=".Decimal_To_Hexa_Progarm_Activity" />
+        <activity android:name=".Decimal_To_Octal_Program_Activity" />
+        <activity android:name=".Hex_To_Decimal_Progarm_Activity" />
+        <activity android:name=".Octal_To_Decimal_Program_Activity" />
+        <activity android:name=".Constructor_Example_Activity" />
+        <activity android:name=".Thread_Program_Activity" />
+        <activity android:name=".Finally_Program_Activity" />
+        <activity android:name=".UserDefine_Exception_Program_Activity" />
+        <activity android:name=".Print_Alphabets_Program_Activity" />
+        <activity android:name=".Palindrome_String_Program_Activity" />
+        <activity android:name=".String_Change_Case_Program_Activity" />
+        <activity android:name=".StringLength_Program_Activity" />
+        <activity android:name=".String_Compare_Program_Activity" />
+        <activity android:name=".String_ConCat_Program_Activity" />
+        <activity android:name=".String_Reverse_Program_Activity" />
+        <activity android:name=".Strng_Trim_Program_Activity" />
+        <activity android:name=".Remove_Vowels_Program_Activity" />
+        <activity android:name=".String_Remove_Char_Program_Activity" />
+        <activity android:name=".Reverse_String_Array_Program_Activity" />
+        <activity android:name=".Sort_String_Array_Program_Activity" />
+        <activity android:name=".String_To_Char_Program_Activity" />
+        <activity android:name=".Char_Array_To_String_Program_Activity" />
+        <activity android:name=".Largest_Smallest_Program_Activity" />
+        <activity android:name=".Average_Of_Array_Program_Activity" />
+        <activity android:name=".Array_Copy_Program_Activity" />
+        <activity android:name=".Delete_Element_From_Array_Program_Activity" />
+        <activity android:name=".Two_D_Array_Program_Activity" />
+        <activity android:name=".Matrix_Multiplication_Program_Activity" />
+        <activity android:name=".Matrix_Transpose_Program_Activity" />
+        <activity android:name=".Sparse_Matrix_Program_Activity" />
+        <activity android:name=".Interface_Program_Activity" />
+        <activity android:name=".Linear_Search_Program_Activity" />
+        <activity android:name=".Binary_Search_Program_Activity" />
+        <activity android:name=".Selection_Sort_Program_Activity" />
+        <activity android:name=".Insertion_Sort_Program_Activity" />
+        <activity android:name=".Quick_Sort_Program_Activity" />
+        <activity android:name=".Multiple_Catch_Program_Activity" />
+        <activity android:name=".Garbage_Collection_Program_Activity" />
+        <activity android:name=".Create_File_Program_Activity" />
+        <activity android:name=".Create_Directory_Program_Activity" />
+        <activity android:name=".List_Contstants_Dir_Program_Activity" />
+        <activity android:name=".Rename_File_Dir_Program_Activity" />
+        <activity android:name=".Delete_Directory_Program_Activity" />
+        <activity android:name=".Last_Modification_Time_Program_Activity" />
+        <activity android:name=".Date_And_Time_Program_Activity" />
+        <activity android:name=".Date_To_String_Program_Activity" />
+        <activity android:name=".Random_Functions_Program_Activity" />
+        <activity android:name=".Random_Number_Program_Activity" />
+        <activity android:name=".Open_Notepad_Program_Activity" />
+        <activity android:name=".Display_IP_Address_Program_Activity" />
+        <activity android:name=".Bubble_Sort_Program_Activity" />
+        <activity android:name=".Important_Question_Activity" />
+        <activity android:name=".AboutUs_Activity" />
+        <activity android:name=".Settings_Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@color/colorWhite"
+    android:padding="10dp"
+    tools:context="com.example.ashu.programmingpie.MultithreadingActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnCreatingThread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="10.1 Creating Thread"/>
+
+
+        <Button
+            android:id="@+id/btnStoppingAndBlocking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="10.2 Stopping &amp; blocking"/>
+
+
+        <Button
+            android:id="@+id/btnLifeCycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="10.3 Life Cycle"/>
+        <Button
+            android:id="@+id/btnExceptionAndPriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="10.4 Exception &amp; priority"/>
+
+        <Button
+            android:id="@+id/btnSynchronization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="10.5 Synchronization"/>
+
+        <Button
+            android:id="@+id/btnRunnable_Interface"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="10.6 Runnable Interface"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

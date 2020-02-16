@@ -1,0 +1,129 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="com.example.ashu.programmingpie.MainActivity">
+
+    <ImageButton
+        android:id="@+id/tutotrial_button"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:contentDescription="tutorials_image"
+        android:background="@drawable/ic_tutorial"
+         android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorials"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="@color/colorGreen"
+        android:id="@+id/textView4" />
+
+    <ImageButton
+        android:id="@+id/programs_button"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_alignTop="@+id/tutotrial_button"
+        android:layout_toEndOf="@+id/tutotrial_button"
+        android:layout_toRightOf="@+id/tutotrial_button"
+        android:background="@drawable/ic_program"
+        android:contentDescription="program_image" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programs"
+        android:textColor="@color/colorGreen"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/tutotrial_button"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/ic_iq"
+        android:contentDescription="notes_image"
+        android:id="@+id/iQ_button"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/tutotrial_button"
+        android:layout_alignStart="@+id/tutotrial_button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Important Questions"
+        android:textColor="@color/colorGreen"
+        android:id="@+id/textView"
+        android:layout_below="@+id/iQ_button"
+        android:layout_alignLeft="@+id/iQ_button"
+        android:layout_alignStart="@+id/iQ_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <ImageButton
+        android:id="@+id/settings_button"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_alignLeft="@+id/programs_button"
+        android:layout_alignStart="@+id/programs_button"
+        android:layout_below="@+id/textView3"
+        android:background="@drawable/ic_setting"
+        android:contentDescription="setting_image" />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Settings"
+     android:textColor="@color/colorGreen"
+     android:id="@+id/textView2"
+     android:layout_marginRight="47dp"
+     android:layout_marginEnd="47dp"
+     android:layout_below="@+id/settings_button"
+     android:layout_alignRight="@+id/exits_button"
+     android:layout_alignEnd="@+id/exits_button" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/ic_share"
+        android:contentDescription="share_image"
+        android:id="@+id/share_button"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/iQ_button"
+        android:layout_alignStart="@+id/iQ_button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shareit"
+        android:textColor="@color/colorGreen"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/exits_button"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <ImageButton
+        android:id="@+id/exits_button"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/share_button"
+        android:layout_toRightOf="@+id/share_button"
+        android:background="@drawable/ic_exit"
+        android:contentDescription="exit_image" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textColor="@color/colorGreen"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/exits_button"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+
+</RelativeLayout>

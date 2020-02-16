@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    android:background="@color/colorWhite"
+    tools:context="com.example.ashu.programmingpie.ArrayStringAndVector_Activity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <Button
+           android:id="@+id/btnArrays"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="7.1 Arrays" />
+       <Button
+           android:id="@+id/btnString"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="7.2 String" />
+       <Button
+           android:id="@+id/btnVectors"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="7.3 Vectors" />
+       <Button
+           android:id="@+id/btnWrapperClass"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="7.4 Wraper Class" />
+
+   </LinearLayout>
+</ScrollView>

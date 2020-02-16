@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="@color/colorDarkGreen"
+    tools:context="com.example.ashu.programmingpie.EnvironmentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorWhite">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="2.2 Environment Setup"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="We need to install the Java Development Toolkit aka JDK, which is bundle with the JAVA RunTime Environment."/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginStart="10dp"
+                 android:layout_marginRight="10dp"
+                 android:textColor="@color/colorBlack"
+                 android:text="At this moment, the Latest JDK version is JDK 8."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="All you have to do is head to the main download page provided by Oracle, and download the latest version that you will find."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:paddingTop="20dp"
+                android:text="Follow the instruction to download java and run the .exe to install Java on Your machine . Once you installed Java on Your machine , you would need to set environment variables to point to correct installation directories. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="20dp"
+                android:textColor="@color/colorBlack"
+                android:text="Assuming you have installing Java in "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginRight="10dp"
+                android:text="c:\ProgramFiles\java\jdk"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="1. Right-click on 'This PC' and select 'Properties'."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="Click on the 'Environment Variables' button under the 'Advanced' tab."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="3. Now , alter the 'Path' variable so that it also contains the path to the Java executable."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:paddingTop="20dp"
+                android:text="Example , If the Path is Currently set to."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="'C:\WINDOWS\SYSTE32',"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="then change your path to read."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="'c:\WINDOWS\SYSTEM32; to C:\Program File\Java\jdk\bin;'("/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="Don't Forget to end  of Line with a semicolon (;)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="20dp"
+                android:textColor="@color/colorAccent"
+                android:text="Setting up the path for Linux , Ubantu, UNIX, Solaris"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="Environment variable PATH should be set to point to where the Java binaries have been installed. Refer to your shell documentation, if you have trouble doing this. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:paddingTop="5dp"
+                android:text="Example, if you use bash as your shell, then you would add the following line to the end of your '.bashrc: export PATH=/path/to/java:$PATH' "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:paddingTop="5dp"
+                android:text="Up until now we have installed a variety of tools towords setting up our Java development environment."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:paddingTop="5dp"
+                android:text="Since the JDK is already installed (from step one) we could actually jump to coding just by using our text editor of choice(NotePad++, TextPad , ULtra Edit etc) and invoking the javc and java commands from the command prommt of command line. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorAccent"
+                android:text="Free IDE for Java"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:text="Netbeans:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:text="Netbeans IDE provides Java Developers with all the tools needed to create profrssional desktop , mobile and enterprise applications."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:text="Eclipse:"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:paddingBottom="30dp"
+                android:paddingTop="5dp"
+                android:text="Eclipse is another free java IDE for developers and programmers and it is mostly written in Java . Eclipse lets you create Variouse cross platform Java applications for use on mobiles, web desktop, and enterprise domains."/>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

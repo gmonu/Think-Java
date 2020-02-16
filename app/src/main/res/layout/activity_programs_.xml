@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    tools:context="com.example.ashu.programmingpie.Programs_Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btnHelloWolrd"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#1 Hello World!" />
+    <Button
+        android:id="@+id/btnAddition"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#2 Addition" />
+    <Button
+        android:id="@+id/btnIfElse"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#3 If Else Example" />
+    <Button
+        android:id="@+id/btnWhileLoopProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#4 While Loop Example" />
+    <Button
+        android:id="@+id/btnDoWhileLoopProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#5 Do While Loop Example" />
+    <Button
+        android:id="@+id/btnForLoopProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#6 For Loop Example" />
+    <Button
+        android:id="@+id/btnSwitchProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#7 Switch Case Example" />
+    <Button
+        android:id="@+id/btnContinueProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#8 Continue Example" />
+    <Button
+        android:id="@+id/btnEvenOddProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#9 Even Or Odd" />
+    <Button
+        android:id="@+id/btnLargestNoProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#10 Largest of 3 No" />
+    <Button
+        android:id="@+id/btnPrimeNumberProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#11 Prime Number" />
+    <Button
+        android:id="@+id/btnPalindromeNumberProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#12 Palindrome Number" />
+    <Button
+        android:id="@+id/btnFindFactorialProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#13 Find Factorial" />
+    <Button
+        android:id="@+id/btnFactorialUsingRecursionProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#14 Factorial Using Recursion" />
+    <Button
+        android:id="@+id/btnAreaOfCircleProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#15 Area of Circle" />
+    <Button
+        android:id="@+id/btnAreaOfRectangleProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#16 Area of Rectangle" />
+    <Button
+        android:id="@+id/btnBitwiseAdditionProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#17 Bitwise Addition" />
+    <Button
+        android:id="@+id/btnSimpleInterestProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#18 Simple Interest" />
+    <Button
+        android:id="@+id/btnCalculatePercentageProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#19 Calculate Percentage" />
+    <Button
+        android:id="@+id/btnGCDAndLCMProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#20 GCD &amp; LCM" />
+    <Button
+        android:id="@+id/btnLeapYearProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#21 Leap Year" />
+
+    <Button
+        android:id="@+id/btnPrintTablesProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#22 Print Tables" />
+    <Button
+        android:id="@+id/btnFindArmstrongNumberProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#23 Find Armstrong Number" />
+    <Button
+        android:id="@+id/btnSwappingTwoNoProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#24 Swapping Two No" />
+    <Button
+        android:id="@+id/btnSwappingWithout3rdVariableProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#25 Swapping Without 3rd Variable" />
+    <Button
+        android:id="@+id/btnFloydTriangleProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#26 Floyd Triangle" />
+    <Button
+        android:id="@+id/btnPascalTriangleProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#27 Pascal Triangle" />
+    <Button
+        android:id="@+id/btnBinaryToDecimalProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#28 Binary to Decimal" />
+    <Button
+        android:id="@+id/btnDecimalToBinaryProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#29 Decimal to Binary" />
+    <Button
+        android:id="@+id/btnDecimalToHexProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#30 Decimal to Hex" />
+    <Button
+        android:id="@+id/btnDecimalToOctalProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#31 Decimal to Octal" />
+
+    <Button
+        android:id="@+id/btnHexToDecimalProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#32 Hex to Decimal" />
+    <Button
+        android:id="@+id/btnOctalToDecimalProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#33 Octal to Decimal" />
+    <Button
+        android:id="@+id/btnConstructorExampleProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#34 Constructor Example" />
+    <Button
+        android:id="@+id/btnThreadExampleProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#35 Thread Example" />
+    <Button
+        android:id="@+id/btnFinallyExampleProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#36 Finally Example" />
+    <Button
+        android:id="@+id/btnUserDefineExceptionProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#37 User Define Exception" />
+    <Button
+        android:id="@+id/btnPrintAlphabetsProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#38 Print Alphabets" />
+    <Button
+        android:id="@+id/btnPalindromeStringProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#39 Palindrome String" />
+    <Button
+        android:id="@+id/btnStringChangeCaseProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#40 String Change Case" />
+    <Button
+        android:id="@+id/btnStringlengthProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#41 String Length" />
+
+    <Button
+        android:id="@+id/btnStringCompareProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#42 String Compare" />
+    <Button
+        android:id="@+id/btnStringConcatProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#43 String Concat" />
+    <Button
+        android:id="@+id/btnStringReverseProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#44 String Reverse" />
+    <Button
+        android:id="@+id/btnStringTrimProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#45 String Trim" />
+    <Button
+        android:id="@+id/btnRemoveVowelsProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#46 Remove Vowels" />
+    <Button
+        android:id="@+id/btnStringRemoveCharProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#47 String Remove Char" />
+    <Button
+        android:id="@+id/btnReverseStringArrayProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="$48 Reverse String Array" />
+    <Button
+        android:id="@+id/btnSortStringArrayProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#49 Sort String Array" />
+    <Button
+        android:id="@+id/btnStringToCharArrayProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#50 String to Char Array" />
+    <Button
+        android:id="@+id/btnCharArrayToStringProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#51 Char Array to String" />
+
+    <Button
+        android:id="@+id/btnLargesSmallestProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#52 Largest Smallest" />
+    <Button
+        android:id="@+id/btnAverageOfArrayProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#53 Average of Array" />
+    <Button
+        android:id="@+id/btnArrayCopyProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#54 Array Copy" />
+    <Button
+        android:id="@+id/btnDeleteElementFromArrayProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#55 Delete element from Array" />
+
+    <Button
+        android:id="@+id/btnTwoDArrayExampleProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#56 2D Array Example" />
+    <Button
+        android:id="@+id/btnMatrixMultiplicationProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#57 Matrix Multiplication" />
+    <Button
+        android:id="@+id/btnMatrixTransposeProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#58 Matrix Transpose" />
+    <Button
+        android:id="@+id/btnSparseMatrixProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#59 Sparse Matrix" />
+    <Button
+        android:id="@+id/btnInterfaceExampleProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#60 Interface Example" />
+    <Button
+        android:id="@+id/btnLinearSearchProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#61 Linear Search" />
+
+    <Button
+        android:id="@+id/btnBinarySearchProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#62 Binary Search" />
+    <Button
+        android:id="@+id/btnBubbleSortProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#63 Bubble Sort" />
+    <Button
+        android:id="@+id/btnSelectionSortProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#64 Selection Sort" />
+    <Button
+        android:id="@+id/btnInsertionSortProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#65 Insertion Sort" />
+    <Button
+        android:id="@+id/btnQuickSortProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#66 Quick Sort" />
+
+    <Button
+        android:id="@+id/btnMultipleCatchProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#67 Multiple Catch" />
+    <Button
+        android:id="@+id/btnGarbageCollectionProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#68 Garbage Collection" />
+    <Button
+        android:id="@+id/btnCreatFileProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#69 Create File" />
+    <Button
+        android:id="@+id/btnCreateDirectoryProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#70 Create Directory" />
+
+
+    <Button
+        android:id="@+id/btnListContentOfDirProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#71 List Contents of Dir" />
+    <Button
+        android:id="@+id/btnRenameFileDirProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#72 Rename File-Dir" />
+    <Button
+        android:id="@+id/btnDeleteDirectoryProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#73 Delete Directory" />
+    <Button
+        android:id="@+id/btnLastModificationTimeProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#74 Last Modification Time" />
+    <Button
+        android:id="@+id/btnDateTimeProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#75 Date Time" />
+    <Button
+        android:id="@+id/btnDatetoStringProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#76 Date to String" />
+    <Button
+        android:id="@+id/btnRandomFuntionsProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#77 Random Functions" />
+    <Button
+        android:id="@+id/btnRandomNumbersProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#78 Random Numbers" />
+    <Button
+        android:id="@+id/btnOpenNotepadProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#79 Open Notepad" />
+
+    <Button
+        android:id="@+id/btnDisplayIpAddressProgram"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="#80 Display IP Address" />
+
+
+</LinearLayout>
+</ScrollView>

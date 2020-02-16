@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    android:background="@color/colorWhite"
+    android:layout_centerVertical="true"
+    tools:context="com.example.ashu.programmingpie.Introdution_activity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <Button
+      android:id="@+id/btnIntroduction_1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/colorWhite"
+      android:textSize="15sp"
+      android:layout_marginTop="2dp"
+      style="@style/Widget.AppCompat.Button.Borderless"
+      android:background="@color/colorGreen"
+      android:text="@string/_1_introduction_btn"/>
+
+
+  <Button
+      android:id="@+id/btnFeatures_2"
+      style="@style/Widget.AppCompat.Button.Borderless"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="2dp"
+      android:background="@color/colorGreen"
+      android:text="@string/_2_features_btn"
+      android:textColor="@color/colorWhite"
+      android:textSize="15sp" />
+
+
+  <Button
+      android:id="@+id/btnProsandCons_3"
+      style="@style/Widget.AppCompat.Button.Borderless"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="2dp"
+      android:background="@color/colorGreen"
+      android:text="@string/_3_pros_and_cons_btn"
+      android:textColor="@color/colorWhite"
+      android:textSize="15sp" />
+
+
+
+</LinearLayout>
+</ScrollView>

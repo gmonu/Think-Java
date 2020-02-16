@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:padding="10dp"
+    android:background="@color/colorWhite"
+    tools:context="com.example.ashu.programmingpie.Applet_Activity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+      <Button
+          android:id="@+id/btnAppletIntro"
+          android:layout_marginTop="2dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:textColor="@color/colorWhite"
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:background="@color/colorGreen"
+          android:text="8.1 Applet Introduction" />
+      <Button
+          android:id="@+id/btnAppletLifeCycle"
+          android:layout_marginTop="2dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:textColor="@color/colorWhite"
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:background="@color/colorGreen"
+          android:text="8.2 Life Cycle" />
+      <Button
+          android:id="@+id/btnCreatingApplet"
+          android:layout_marginTop="2dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:textColor="@color/colorWhite"
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:background="@color/colorGreen"
+          android:text="8.3 Creating An Executable Applet " />
+      <Button
+          android:id="@+id/btnDesignAWabpage"
+          android:layout_marginTop="2dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:textColor="@color/colorWhite"
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:background="@color/colorGreen"
+          android:text="8.4 Design A Webpage " />
+
+      <Button
+          android:id="@+id/btnRunningApplet"
+          android:layout_marginTop="2dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:textColor="@color/colorWhite"
+          style="@style/Widget.AppCompat.Button.Borderless"
+          android:background="@color/colorGreen"
+          android:text="8.5 Running Applet" />
+
+
+   </LinearLayout>
+</ScrollView>

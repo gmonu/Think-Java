@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="com.example.ashu.programmingpie.Tutorials_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/intro_button"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="@string/introduction_button" />
+
+
+        <Button
+            android:id="@+id/setup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_marginTop="2dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="@string/setup_basic_program_button"/>
+
+
+        <Button
+            android:id="@+id/Variable_button"
+            android:layout_width="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="@string/variables_data_type_button" />
+
+        <Button
+            android:id="@+id/operators_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:layout_marginTop="2dp"
+            android:text="@string/operators_exression_button" />
+
+
+        <Button
+            android:id="@+id/flowControl_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="@string/flow_control_button" />
+
+
+        <Button
+            android:id="@+id/class_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:layout_marginTop="2dp"
+            android:text="@string/classes_objects_methods_button"/>
+
+
+        <Button
+            android:id="@+id/array_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="@string/arrays_string_vector_button" />
+
+
+        <Button
+            android:id="@+id/Interface_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:layout_marginTop="2dp"
+            android:text="@string/interfaces_button" />
+
+
+        <Button
+            android:id="@+id/packages_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorWhite"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@color/colorGreen"
+            android:text="@string/packages_button" />
+
+
+    <Button
+        android:id="@+id/multithreading_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="@string/multithreaded_programming_button" />
+
+
+    <Button
+        android:id="@+id/Errors_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="@string/errors_exception_button" />
+
+    <Button
+        android:id="@+id/btnApplet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="@string/applet_button"/>
+
+    <Button
+        android:id="@+id/file_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="@string/file_management_button"/>
+    </LinearLayout>
+</ScrollView>

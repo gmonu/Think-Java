@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:padding="10dp"
+    android:background="@color/colorWhite"
+    tools:context="com.example.ashu.programmingpie.FileManagement_Activity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <Button
+           android:id="@+id/btnStreamClass"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="13.1 Stream Classes" />
+       <Button
+           android:id="@+id/btnByteStream"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="13.2 Byte Stream" />
+       <Button
+           android:id="@+id/btnCharacterStream"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="13.3 Character Stream" />
+       <Button
+           android:id="@+id/btnStandardStream"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="13.4 Standard Stream" />
+       <Button
+           android:id="@+id/btnFile"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="13.5 File" />
+       <Button
+           android:id="@+id/btnDirectory"
+           android:layout_marginTop="2dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="15sp"
+           android:textColor="@color/colorWhite"
+           style="@style/Widget.AppCompat.Button.Borderless"
+           android:background="@color/colorGreen"
+           android:text="13.5 Directory" />
+
+
+   </LinearLayout>
+</RelativeLayout>

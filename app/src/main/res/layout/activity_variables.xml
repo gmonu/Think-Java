@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    tools:context="com.example.ashu.programmingpie.VariablesActivity">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+     <Button
+         android:id="@+id/btnVariables"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         style="@style/Widget.AppCompat.Button.Borderless"
+         android:text="3.1 Variables"
+         android:textSize="15sp"
+         android:layout_marginTop="2dp"
+         android:textColor="@color/colorWhite"
+         android:background="@color/colorGreen"/>
+
+     <Button
+         android:id="@+id/btnDataType"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         style="@style/Widget.AppCompat.Button.Borderless"
+         android:text="3.2 Data Type"
+         android:textSize="15sp"
+         android:layout_marginTop="2dp"
+         android:textColor="@color/colorWhite"
+         android:background="@color/colorGreen"/>
+     <Button
+         android:id="@+id/btnVariable_Scope"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         style="@style/Widget.AppCompat.Button.Borderless"
+         android:text="3.3 Variables Scope"
+         android:textSize="15sp"
+         android:layout_marginTop="2dp"
+         android:textColor="@color/colorWhite"
+         android:background="@color/colorGreen"/>
+     <Button
+         android:id="@+id/btnTypecasting"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         style="@style/Widget.AppCompat.Button.Borderless"
+         android:text="3.4 Typecasting"
+         android:textSize="15sp"
+         android:layout_marginTop="2dp"
+         android:textColor="@color/colorWhite"
+         android:background="@color/colorGreen"/>
+ </LinearLayout>
+</RelativeLayout>

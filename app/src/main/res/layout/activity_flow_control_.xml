@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:padding="10dp"
+    android:background="@color/colorWhite"
+    tools:context="com.example.ashu.programmingpie.FlowControl_Activity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <Button
+        android:id="@+id/btnIfStatement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="5.1 If Statement"/>
+    <Button
+        android:id="@+id/btnSwitchStatement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="5.2 Switch Statement"/>
+    <Button
+        android:id="@+id/btnWhileLoop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="5.3 While Loop"/>
+    <Button
+        android:id="@+id/btnDoWhileLoop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="5.4 Do While Loop"/>
+
+    <Button
+        android:id="@+id/btnForloop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_marginTop="2dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@color/colorGreen"
+        android:text="5.5 For Loop"/>
+
+
+  </LinearLayout>
+</ScrollView>

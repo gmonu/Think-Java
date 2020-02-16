@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorGreen"
+    tools:context="com.example.ashu.programmingpie.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/JavaImage"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/java_icon_image"
+        android:layout_marginTop="120dp"
+        android:padding="20dp"
+        android:src="@drawable/icon_image" />
+
+    <TextView
+        android:id="@+id/programmingPie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THINK JAVA !"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/java_Tutorials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/java_tutorials_textView"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
